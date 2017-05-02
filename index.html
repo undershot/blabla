@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./FontAwesome/font-awesome.min.css">
+
+	<script src="./Js/jquery.js" defer></script>
+	<script src="./Js/prefix-free.js" defer></script>
+
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+
+
+</head>
+<body>
+
+
+<header class="header">
+
+	<nav>
+
+		<div class="wrapper__fixed">
+			<ul class="header__top-nav">
+				<li>
+					<i class="fa fa-clock-o"></i>
+
+					<div class="header__top-nav__label">
+						<span>Working time</span>
+						Mon-Sun: 8:00 - 18:00
+					</div>
+
+				</li>
+
+				<li>
+					<i class="fa fa-truck"></i>
+
+					<div class="header__top-nav__label">
+						<span>Free shipping</span>
+						On order over 199$
+					</div>
+
+				</li>
+
+				<li>
+					<i class="fa fa-money"></i>
+
+					<div class="header__top-nav__label">
+						<span>Money back 100%</span>
+						Within 30 Days after delivery
+					</div>
+
+				</li>
+
+				<li>
+					<i class="fa fa-phone-square"></i>
+
+					<div class="header__top-nav__label">
+						<span>Phone 0123456789</span>
+						Order Online Now!
+					</div>
+
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="">
+		<div class="wrapper__fixed">
+			<div class="row header__logo-layout">
+
+
+				<a href="#" class="logo"><img src="./logo.png" alt="E-Shop.kz"></a>
+
+				<div class="header__search">
+					<div class="header__search__category">
+						<span>All Categories</span>
+
+						<i class="fa fa-caret-down header__search__arrow"></i>
+					</div>
+
+					<div class="header__search__field">
+						<input type="text" placeholder="Search" class="textfield textfield__search"/>
+					</div>
+
+					<div class="header__search__submit">
+						<button type="submit" class="button button--primary button__search-submit">
+							<i class="fa fa-search"></i>
+						</button>
+					</div>
+				</div>
+
+				<div class="header__cart">
+					<a href="#" class="button button--primary button__cart">
+						<i class="fa fa-shopping-cart"></i>
+					</a>
+				</div>
+
+				<nav class="header__log-menu">
+					<a href="#">Authorization</a>
+					<a href="#">Registration</a>
+				</nav>
+
+			</div>
+		</div>
+
+	</div>
+
+
+	<nav class="header__menu">
+
+		<div class="wrapper__fixed">
+			<ul class="header__menu-list">
+				<li class="header__menu-item">
+					<a href="#">Home</a>
+				</li>
+
+				<li class="header__menu-item">
+					<a href="#">About Us</a>
+				</li>
+
+				<li class="header__menu-item">
+					<a href="#">Bestseller Products</a>
+					<span class="header__badge badge__red">
+						Hot
+						<i class="fa fa-caret-down"></i>
+					</span>
+				</li>
+
+				<li class="header__menu-item">
+					<a href="#">New Products</a>
+					<span class="header__badge badge__green">
+						New
+						<i class="fa fa-caret-down"></i>
+					</span>
+				</li>
+
+				<li class="header__menu-item">
+					<a href="#">Special Products</a>
+				</li>
+
+				<li class="header__menu-item">
+					<a href="#">Pages</a>
+				</li>
+
+				<li class="header__menu-item">
+					<a href="#">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+
+	</nav>
+</header>
+
+
+<div class="wrapper__fixed wrapper__global">
+
+	<section class="page">
+		<aside class="sidebar">
+
+			<div class="sideblock sideblock__categories">
+				<div class="sideblock__title">
+					<span class="sideblock__title-label">
+						<i class="fa fa-bars"></i>
+						Categories
+					</span>
+					<i class="fa fa-caret-down "></i>
+				</div>
+
+				<div class="sideblock__content">
+					<ul class="sideblock__categories-list">
+						<li class="sideblock__categories-item">
+							<a href="#">Cameras & Photography</a>
+						</li>
+
+						<li class="sideblock__categories-item">
+							<a href="#">Tv & Audio</a>
+						</li>
+
+						<li class="sideblock__categories-item">
+							<a href="#">SmartPhones & Tablets</a>
+						</li>
+
+						<li class="sideblock__categories-item">
+							<a href="#">Laptop & Computer</a>
+						</li>
+
+						<li class="sideblock__categories-item">
+							<a href="#">Sony</a>
+						</li>
+
+						<li class="sideblock__categories-item">
+							<a href="#">Mobile</a>
+						</li>
+
+						<li class="sideblock__categories-item">
+							<a href="#">Sports</a>
+						</li>
+
+						<li class="sideblock__categories-item">
+							<a href="#">
+								More Categories
+
+								<i class="fa fa-plus"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="sideblock sideblock__bestsellers">
+				<div class="sideblock__title">
+					<span class="sideblock__title-label">
+						Bestseller
+					</span>
+				</div>
+
+				<div class="sideblock__content">
+
+					<ul class="sideblock__products-list">
+						<li class="sideblock__products-item">
+							<img src="./Images/13.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Various Versions</a>
+
+								<span class="product__price">$99.00<s>$120.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<img src="./Images/11.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Estabilshed Fact</a>
+
+								<span class="product__price">$85.00<s>$105.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<img src="./Images/12.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Trid Palm</a>
+
+								<span class="product__price">$90.00<s>$120.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<img src="./Images/2.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Estabilished Fact</a>
+
+								<span class="product__price">$85.00<s>$105.00</s></span>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+
+		</aside>
+
+
+		<section class="content">
+
+			<div class="sideblock sideblock__full">
+				<div class="sideblock__title">
+					<span class="sideblock__title-label">
+						Speaker
+					</span>
+				</div>
+
+				<div class="sideblock__content">
+
+					<ul class="sideblock__products-list products__list">
+						<li class="sideblock__products-item">
+							<div class="product__badge __red">
+								New
+							</div>
+
+							<img src="./Images/13.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Various Versions</a>
+
+								<span class="product__price">$99.00<s>$120.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<div class="product__badge __blue">
+								-45%
+							</div>
+
+							<img src="./Images/11.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Estabilished Fact</a>
+
+								<span class="product__price">$85.00<s>$105.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<img src="./Images/12.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Trid Palm</a>
+
+								<span class="product__price">$90.00<s>$120.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<img src="./Images/2.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Estabilished Fact</a>
+
+								<span class="product__price">$85.00<s>$105.00</s></span>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+
+			<div class="sideblock sideblock__full">
+				<div class="sideblock__title __pink">
+					<span class="sideblock__title-label">
+						Computer
+					</span>
+				</div>
+
+				<div class="sideblock__content">
+
+					<ul class="sideblock__products-list products__list">
+						<li class="sideblock__products-item">
+							<div class="product__badge __red">
+								New
+							</div>
+
+							<img src="./Images/13.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Various Versions</a>
+
+								<span class="product__price">$99.00<s>$120.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<div class="product__badge __blue">
+								-45%
+							</div>
+
+							<img src="./Images/11.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Estabilished Fact</a>
+
+								<span class="product__price">$85.00<s>$105.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<img src="./Images/12.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Trid Palm</a>
+
+								<span class="product__price">$90.00<s>$120.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<img src="./Images/2.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Estabilished Fact</a>
+
+								<span class="product__price">$85.00<s>$105.00</s></span>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+
+			<div class="sideblock sideblock__full">
+				<div class="sideblock__title">
+					<span class="sideblock__title-label">
+						Smart Phone
+					</span>
+				</div>
+
+				<div class="sideblock__content">
+
+					<ul class="sideblock__products-list products__list">
+						<li class="sideblock__products-item">
+							<div class="product__badge __red">
+								New
+							</div>
+
+							<img src="./Images/13.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Various Versions</a>
+
+								<span class="product__price">$99.00<s>$120.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<div class="product__badge __blue">
+								-45%
+							</div>
+
+							<img src="./Images/11.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Estabilished Fact</a>
+
+								<span class="product__price">$85.00<s>$105.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<img src="./Images/12.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Trid Palm</a>
+
+								<span class="product__price">$90.00<s>$120.00</s></span>
+							</div>
+						</li>
+
+						<li class="sideblock__products-item">
+							<img src="./Images/2.jpg" class="product__image" alt="Various Versions">
+
+							<div class="product__brief">
+								<a href="#" class="product__title">Estabilished Fact</a>
+
+								<span class="product__price">$85.00<s>$105.00</s></span>
+							</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+		</section>
+
+	</section>
+</div>
+
+<section class="subscribe">
+	<div class="wrapper__fixed subscribe--inside">
+
+
+			<div class="subscribe__form">
+
+				<div class="subscribe__title">
+					Sign Up for Newsletter:
+				</div>
+
+				<div class="subscribe__field">
+					<input type="text" name="" placeholder="Enter Your E-mail" class="textfield textfield__subscribe" id="">
+					<button class="button button__subscribe">Subscribe</button>
+				</div>
+
+			</div>
+
+
+			<div class="subscribe__socials">
+
+				<div class="socials">
+					<a href="#" class="socials__item">
+						<i class="fa fa-facebook"></i>
+					</a>
+
+					<a href="#" class="socials__item">
+						<i class="fa fa-google-plus"></i>
+					</a>
+
+					<a href="#" class="socials__item">
+						<i class="fa fa-twitter"></i>
+					</a>
+
+					<a href="#" class="socials__item">
+						<i class="fa fa-youtube"></i>
+					</a>
+
+					<a href="#" class="socials__item">
+						<i class="fa fa-linkedin"></i>
+					</a>
+
+					<a href="#" class="socials__item">
+						<i class="fa fa-rss"></i>
+					</a>
+
+
+				</div>
+
+			</div>
+
+	</div>
+</section>
+
+<footer class="footer">
+
+	<div class="wrapper__fixed footer--inside">
+
+		<div class="footer__col">
+			<div class="footer__title">
+				My account
+			</div>
+
+			<div class="footer__col-content">
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#">My Account</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Order History</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Wish List</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Search Terms</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Returns</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer__col">
+			<div class="footer__title">
+				Customer service
+			</div>
+
+			<div class="footer__col-content">
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#">Contact Us</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">About Us</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Delivery information</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Terms & Conditions</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer__col">
+			<div class="footer__title">
+				Payment & Shipping
+			</div>
+
+			<div class="footer__col-content">
+				<ul class="footer__list">
+					<li class="footer__item">
+						<a href="#">Brands</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Gift Vouchers</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Affiliates</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Specials</a>
+					</li>
+					<li class="footer__item">
+						<a href="#">Search Terms</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer__col">
+			<div class="footer__title">
+				Payment & Shipping
+			</div>
+
+			<div class="footer__col-content">
+				<ul class="footer__list">
+					<li class="footer__item--contact">
+						<i class="fa fa-home"></i>
+						Kazakhstan, Astana
+					</li>
+					<li class="footer__item--contact">
+						<i class="fa fa-envelope-o"></i>
+						<a href="#">admin@example.kz</a>
+					</li>
+					<li class="footer__item--contact">
+						<i class="fa fa-phone"></i>
+						<div>
+							01234-56789 <br>
+							01234-56789
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+</footer>
+
+<section class="copyrights">
+	<div class="wrapper__fixed copyrights--inside">
+
+		<div>Copyright &copy;</div>
+
+		<img src="./payment.png" alt="Payments">
+
+	</div>
+</section>
+
+
+<script src="./Js/main.js" defer></script>
+</body>
+</html>
